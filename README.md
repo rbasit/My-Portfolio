@@ -2,7 +2,7 @@
 
 A clean, modern portfolio using Next.js (App Router) + Tailwind, with your projects pre-filled.
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # 1) Install deps
@@ -14,7 +14,7 @@ npm run dev
 # 3) Open http://localhost:3000
 ```
 
-## ✏️ Personalize
+## ✏Personalize
 
 - Find-and-replace **Your Name** with your real name.
 - Update links in `app/contact/page.tsx`.
@@ -22,13 +22,13 @@ npm run dev
 - Edit project entries in `lib/data.ts` (titles, descriptions, repo links).
 - Optionally add images to `public/` and include `image` fields for projects.
 
-## 🧪 Tech
+## Tech
 - Next.js 14, React 18, TypeScript
 - Tailwind CSS
 - Framer Motion (subtle animations)
 - lucide-react icons
 
-## 🛫 Deploy
+## Deploy
 The easiest path is **Vercel**:
 
 1. Create a GitHub repo and push this code.
@@ -37,5 +37,4 @@ The easiest path is **Vercel**:
 
 Or use **GitHub Pages** by exporting a static site (advanced).
 
-## 🖼 Theme
-Default accent uses Tailwind `indigo-600` to match your preference.
+
