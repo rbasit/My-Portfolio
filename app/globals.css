@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 248 249 251;
+  --fg: 17 24 39;
+}
+
+html, body, :root { height: 100%; }
+body {
+  @apply bg-gradient-to-br from-gray-50 via-white to-indigo-50 text-gray-900 antialiased;
+  background-attachment: fixed;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4 md:px-8;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-extrabold tracking-tight;
+  @apply bg-gradient-to-r from-indigo-600 to-purple-500 bg-clip-text text-transparent;
+}
+
+.card {
+  @apply rounded-2xl bg-white/70 backdrop-blur-md shadow-lg p-6 transition transform hover:-translate-y-1 hover:shadow-xl;
+}
