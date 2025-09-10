@@ -14,7 +14,7 @@ npm run dev
 # 3) Open http://localhost:3000
 ```
 
-## ✏Personalize
+## Personalize
 
 - Find-and-replace **Your Name** with your real name.
 - Update links in `app/contact/page.tsx`.
