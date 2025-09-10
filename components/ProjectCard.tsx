@@ -1,5 +1,9 @@
+"use client";
+
 import { Github, Link as LinkIcon } from "lucide-react";
 import { motion } from "framer-motion";
+
+
 
 type Project = {
   title: string;
