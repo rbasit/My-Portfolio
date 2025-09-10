@@ -10,9 +10,37 @@ export default function ContactPage() {
         The fastest way to reach me is via email.
       </p>
       <div className="card space-y-2">
-        <p><strong>Email:</strong> ridabasit82@gmail.com</p>
-        <p><strong>LinkedIn:</strong> https://www.linkedin.com/in/rida-basit/</p>
-        <p><strong>GitHub:</strong> https://github.com/rbasit</p>
+        <p>
+          <strong>Email:</strong>{" "}
+          <a
+            href="mailto:ridabasit82@gmail.com"
+            className="text-indigo-600 hover:underline"
+          >
+            ridabasit82@gmail.com
+          </a>
+        </p>
+        <p>
+          <strong>LinkedIn:</strong>{" "}
+          <a
+            href="https://www.linkedin.com/in/rida-basit/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-600 hover:underline"
+          >
+            linkedin.com/in/rida-basit
+          </a>
+        </p>
+        <p>
+          <strong>GitHub:</strong>{" "}
+          <a
+            href="https://github.com/rbasit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-600 hover:underline"
+          >
+            github.com/rbasit
+          </a>
+        </p>
       </div>
     </div>
   );

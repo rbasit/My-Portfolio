@@ -26,7 +26,7 @@ export default function HomePage() {
           transition={{ delay: 0.3 }}
           className="mt-5 text-lg md:text-xl text-gray-600"
         >
-          CS student at UTD • Software Developer • Building clean, modern apps.
+          CS student at UTD • Software Developer • Building clean, modern solutions.
         </motion.p>
         <div className="mt-8 flex items-center justify-center gap-4">
           <Link
